@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import Literal
 dotenv.load_dotenv()
 
-class Customer(BaseModel):
+class Manager(BaseModel):
     _id: str
     name: str
     email: str
